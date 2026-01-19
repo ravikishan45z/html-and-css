@@ -1,0 +1,122 @@
+body {
+  font-family: Ubuntu;
+}
+.image1 {
+  width: 400px;
+  border-radius: 11px;
+  border-color: black;
+  border-style: solid;
+  margin: 10px 20px 30px 10px;
+}
+.image2 {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 11px;
+  border-color: black;
+  border-style: solid;
+  margin: 10px 20px 30px 10px;
+}
+.image3 {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 250px;
+  border-color: black;
+  border-style: solid;
+  margin: 10px 20px 30px 10px;
+}
+.ip {
+  margin: 30px;
+  width: 300px;
+  height: 50px;
+  border: 2px solid gray;
+  font-size: 20px;
+  border-radius: 10px;
+  color: black;
+  cursor: auto;
+  padding: 0px 0px 0px 20px;
+}
+.ip2 {
+  margin: 30px;
+  width: 450px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  border-radius: 38px;
+  cursor: auto;
+  box-shadow: 1px 1px 8px black;
+  text-align: left;
+  padding: 0px 0px 0px 20px;
+}
+
+.email {
+  margin: 10px 0px 5px 20px;
+  font-size: 23px;
+}
+.email-input {
+  margin: 30px;
+  width: 450px;
+  height: 50px;
+  border: 1px solid gray;
+  font-size: 20px;
+  border-radius: 3px;
+  cursor: auto;
+  /* box-shadow: 1px 1px 8px black; */
+  text-align: left;
+  padding: 0px 0px 0px 20px;
+  margin: 5px 0px 3px 20px;
+}
+.policy {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.join-button {
+  width: 450px;
+  padding: 5px 10px 5px 10px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  background-color: blue;
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  color: white;
+  margin: 30px;
+}
+.image4{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-right: 5px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.text{
+vertical-align: middle;
+border: none;
+font-size: 18px;
+width: 300px;
+margin-top: 0;
+margin-bottom: 0;
+}
+.tweet-button{
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 8px 16px 8px 16px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+/* .X_tweet{
+  width: 450px;
+  height: 60px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 10px black;
+
+} */

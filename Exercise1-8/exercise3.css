@@ -1,0 +1,168 @@
+ .request {
+            background-color: rgb(14, 8, 8);
+            height: 36px;
+            width: 120px;
+            color: white;
+            border: none;
+            font-weight: bold;
+            border-style: solid;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+
+        .cart {
+            background-color: rgb(241, 190, 6);
+            height: 36px;
+            width: 160px;
+            border-radius: 50px;
+            color: black;
+            border: none;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+
+        .sign {
+            background-color: rgb(25, 165, 32);
+            height: 36px;
+            width: 85px;
+            border-radius: 5px;
+            color: white;
+            border: none;
+            font-weight: bold;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+
+        .started {
+            background-color: rgb(125, 20, 106);
+            height: 36px;
+            width: 115px;
+            border-radius: 5px;
+            color: white;
+            border: none;
+            font-weight: bold;
+            margin-bottom: 20px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+
+        .download {
+            background-color: rgb(255, 255, 255);
+            height: 36px;
+            width: 100px;
+            border-radius: 5px;
+            color: black;
+            border: none;
+            border-color: black;
+            border-style: solid;
+            margin-bottom: 20px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+
+        .linkdin {
+            background-color: blue;
+            height: 36px;
+            width: 200px;
+            border-radius: 70px;
+            color: white;
+            border: none;
+            font-weight: bold;
+            border-style: solid;
+            cursor: pointer;
+        }
+
+        .save {
+            background-color: rgb(255, 255, 255);
+            height: 36px;
+            width: 68px;
+            border-radius: 45px;
+            color: blue;
+            border-color: blue;
+            border-style: solid;
+            cursor: pointer;
+        }
+
+        .request:hover {
+            opacity: .67;
+            transition: .25s;
+        }
+
+        .cart:hover {
+            background-color: rgb(241, 190, 6);
+            opacity: .77;
+            transition: .15s;
+            box-shadow: 2px 02px 02px black;
+        }
+
+        .sign:hover {
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.30);
+            /* opacity: .90; */
+        }
+
+        .started:hover {
+            opacity: .78;
+            transition: 0.15s;
+        }
+
+        .download:hover {
+            background-color: rgb(78, 78, 78);
+            color: white;
+        }
+
+        .linkdin:hover {
+            background-color: rgb(14, 8, 113);
+        }
+
+        .save:hover {
+            /* opacity: .78; */
+            background-color: rgb(207, 207, 207);
+            border: 1px;
+            border-color: blue;
+            border-style: solid;
+        }
+        .amazon:hover {
+            color: brown;
+        }
+
+        #cart {
+            background-color: yellow;
+            height: 25px;
+            width: 90px;
+            border: none;
+            border-radius: 40px;
+            cursor: pointer;
+        }
+
+        #buy {
+            background-color:rgba(255, 68, 0, 0.976);
+            height: 25px;
+            width: 90px;
+            border: none;
+            border-radius: 40px;
+            cursor: pointer;
+        }
+        #cart:hover{
+            opacity: .80;
+            transition: .23s;
+        }
+
+         #buy:hover{
+            opacity: .80;
+            transition: .23s;
+        }
+        #cart:active{
+            opacity: .50;
+            transition: .25s;
+        }
+
+         #buy:active{
+            opacity: .50;
+            transition: .25s;
+         }
+         .dive{
+            border: black;
+            border-width: 1px;
+            border-style: solid;
+            padding: 15px;
+         }
