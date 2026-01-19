@@ -1,0 +1,22 @@
+   body{
+    font-family: Arial;
+   }
+.service{
+    /* box-shadow: 1px 1px 5px black; */
+    border: 1px solid gray;
+    width: 400px;
+    margin: 0px;
+    padding: 3px 10px 20px 15px;
+    font-size: 20px;
+}
+p{
+    display: block;
+    margin-bottom: 15px;
+}
+button{
+    padding: 5px 8px 5px 8px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background-color: rgb(239, 239, 239);
+    border: 1px gray solid;
+}
