@@ -1,0 +1,49 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: arial;
+}
+.container{
+ margin-left: 10px;
+}
+.main-container {
+  padding: 2px;
+}
+
+.video-info-container {
+  display: inline-block;
+  margin-left: 3px;
+  vertical-align: top;
+}
+.image-container {
+  display: inline-block;
+  vertical-align: top;
+}
+.image {
+  height: 70px;
+  width: 120px;
+  box-shadow: 1px 1px 2px grey;
+}
+.video-info {
+  display: block;
+  font-size: 12px;
+  width: 180px;
+  font-weight: bold;
+}
+.channel-id {
+  display: block;
+  font-size: 20px;
+  font-size: 10px;
+  margin-top: 5px;
+  color: rgb(88, 86, 86);
+}
+.video-insights {
+  display: block;
+  font-size: 20px;
+  font-size: 10px;
+  margin-top: 5px;
+  color: rgb(88, 86, 86);
+}
