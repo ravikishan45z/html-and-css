@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: arial;
+  padding: 20px;
+}
+.main-container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 200px;
+}
+.img-container {
+  margin: 0px;
+  display: grid;
+}
+.text-container {
+  margin: 0px;
+  padding: 5px;
+}
+.image-cat {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.name {
+  font-weight: bold;
+}
+.logo {
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 20px;
+  vertical-align: middle;
+}
+.friend {
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  color: grey;
+}
+.add-button {
+  margin-top: 15px;
+  height: 30px;
+  width: 90px;
+  background-color: rgb(46, 46, 196);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
