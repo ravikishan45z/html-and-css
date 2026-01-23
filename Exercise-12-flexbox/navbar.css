@@ -1,0 +1,28 @@
+* {
+  padding: 0px;
+}
+body {
+  padding: 20px 50px;
+  font-family: arial;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 8px 10px;
+  border: 1px solid black;
+  align-items: center;
+  background-color: rgb(171, 68, 171);
+  justify-content: space-between;
+}
+input {
+  border-radius: 30px;
+  border: none;
+  padding: 5px 10px;
+}
+button {
+  background-color: rgb(171, 68, 171);
+  border: 1px solid white;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 2px;
+}
