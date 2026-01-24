@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0px;
+}
+body {
+  padding: 50px;
+}
+.main-div {
+  display: flex;
+  height: 50px;
+  border: 1px solid grey;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+.item1 {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.item2 {
+  display: flex;
+  flex: 2;
+  align-items: center;
+  justify-content: space-between;
+}
