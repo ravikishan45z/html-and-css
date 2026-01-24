@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 50px;
+}
+.flexbox {
+  display: flex;
+  height: 50px;
+  padding: 5px;
+  border: 1px solid grey;
+}
+.box1 {
+  display: flex;
+  flex: 1;
+}
+.box2 {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+.column1{
+  display: flex;
+  flex-direction: row;
+  align-items:start;
+}
+.column2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
