@@ -1,0 +1,21 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+}
+.box {
+  height: 400px;
+  width: 400px;
+  position: relative;
+  background-color: rgb(181, 57, 57);
+}
+.bottom-side {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  background-color: black;
+}

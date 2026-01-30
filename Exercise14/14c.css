@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: grey;
+    font-family: arial;
+}
+.right-sidebar {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  color: white;
+  background-color: rgb(44, 124, 44);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    padding-left: 20px;
+    border-radius: 7px;
+    border: 1px solid white;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    margin: auto;
+    margin-top: 20%;
+    margin-bottom: 20%; 
+    height: 120px;
+}
+.title{
+    font-size: 22px;
+    font-weight: bolder;
+}
+.close-button{
+    padding: 2px 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.right-sidebar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  /* text-align: center; */
+  color: white;
+  background-color: rgb(44, 124, 44);
+}
