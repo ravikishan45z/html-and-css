@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: arial;
+}
+.box {
+  display: flex;
+}
+.left-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(24, 24, 24);
+  padding: 10px 8px;
+   cursor: pointer;
+}
+.profile-picture {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+.middle-sidebar {
+  position: fixed;
+  top: 0;
+  left: 80px;
+  bottom: 0;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.829);
+  padding: 10px 12px;
+  color: rgb(154, 154, 154);
+  line-height: 40px;
+  cursor: pointer;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+}
