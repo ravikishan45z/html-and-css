@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: arial;
+  padding: 20px;
+}
+.box {
+  position: relative;
+  display: inline-block;
+}
+.shirt-image {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+.offer {
+  position: absolute;
+  background-color: black;
+  top: 10px;
+  right: 0px;
+  padding: 5px;
+  color: white;
+  border-radius: 1px;
+}
+.bottom-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Add-button {
+  position: absolute;
+  bottom: 30px;
+  left: 100px;
+  right: 100px;
+  padding: 8px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
